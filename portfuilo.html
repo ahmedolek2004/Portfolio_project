@@ -15,6 +15,10 @@
       rel="stylesheet"
     />
     <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -44,7 +48,14 @@
             🌗
           </button>
         </div>
-        <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
       </div>
       <div class="container mobile-menu" id="mobileMenu" aria-hidden="true">
         <a href="#about">About</a>
@@ -63,7 +74,7 @@
         <div>
           <span class="chip">👋 Hello, I’m</span>
           <h1 class="title">
-            Ahmed Abdelhlem<br /><span class="gradient-text"
+            Ahmed Abdelhalim<br /><span class="gradient-text"
               >Full‑Stack Developer • AI/IoT</span
             >
           </h1>
@@ -77,11 +88,7 @@
           </div>
         </div>
         <div class="portrait">
-          <img
-            src="me.jpg"
-            alt="Developer workspace"
-            loading="lazy"
-          />
+          <img src="me.jpg" alt="Developer workspace" loading="lazy" />
         </div>
       </div>
     </header>
@@ -323,28 +330,42 @@
           </form>
           <div class="card">
             <h3>Find me</h3>
-            <p>
-              Email:
-              <a href="mailto:youremail@example.com">youremail@example.com</a>
-            </p>
-            <p>
-              LinkedIn:
+            <div class="social-links">
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="ahmedolek2004@gmail.com"
+                title="ahmedolek2004@gmail.com"
+                class="social-icon"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ahmed-abdelhlem-802921302/"
                 target="_blank"
                 rel="noopener"
-                >linkedin.com/in/yourprofile</a
+                title="LinkedIn"
+                class="social-icon"
               >
-            </p>
-            <p>
-              GitHub:
+                <i class="fab fa-linkedin"></i>
+              </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/ahmedolek2004"
                 target="_blank"
                 rel="noopener"
-                >github.com/yourusername</a
+                title="GitHub"
+                class="social-icon"
               >
-            </p>
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://wa.me/+201008349894"
+                target="_blank"
+                rel="noopener"
+                title="WhatsApp"
+                class="social-icon"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -353,7 +374,7 @@
     <footer>
       <div class="container footer-row">
         <small
-          >© <span id="year"></span> Ahmed Abdelhlem. All rights
+          >© <span id="year"></span> Ahmed Abdelhalim. All rights
           reserved.</small
         >
         <a href="#top" class="btn btn-ghost" aria-label="Back to top">↑ Top</a>
